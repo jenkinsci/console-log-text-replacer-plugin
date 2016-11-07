@@ -30,7 +30,7 @@
 
     <name>ConsoleLogTextReplacer</name>
     <description>Enables replace/hide text written to the console log</description>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Console+Log+Text+Replacer+Plugin</url>
 
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
@@ -51,9 +51,9 @@
     </developers>
     <!-- Assuming you want to host on @jenkinsci:
     <scm>
-      <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-      <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-      <url>http://github.com/jenkinsci/${project.artifactId}-plugin</url>
+      <connection>scm:git:git://github.com/jenkinsci/console-log-text-replacer-plugin.git</connection>
+      <developerConnection>scm:git:git@github.com:jenkinsci/console-log-text-replacer-plugin.git</developerConnection>
+      <url>http://github.com/jenkinsci/console-log-text-replacer-plugin</url>
     </scm>
      -->
     <repositories>
