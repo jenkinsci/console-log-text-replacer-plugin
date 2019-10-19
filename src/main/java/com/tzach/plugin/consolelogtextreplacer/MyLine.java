@@ -1,5 +1,6 @@
 package com.tzach.plugin.consolelogtextreplacer;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import hudson.console.LineTransformationOutputStream;
 
 import java.io.IOException;
@@ -8,6 +9,7 @@ import java.io.OutputStream;
 /**
  * @author tzach
  */
+@SuppressFBWarnings("DM_DEFAULT_ENCODING")
 public class MyLine extends LineTransformationOutputStream {
 
     private final OutputStream logger;

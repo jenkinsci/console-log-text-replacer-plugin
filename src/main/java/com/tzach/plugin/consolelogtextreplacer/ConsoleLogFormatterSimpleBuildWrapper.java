@@ -3,6 +3,7 @@ package com.tzach.plugin.consolelogtextreplacer;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import hudson.EnvVars;
 import hudson.Extension;
 import hudson.FilePath;
@@ -27,6 +28,7 @@ import java.io.IOException;
  * @author tzach
  */
 // first, extend the SimpleBuildWrapper
+    @SuppressFBWarnings({"DM_DEFAULT_ENCODING","REC_CATCH_EXCEPTION"})
 public class ConsoleLogFormatterSimpleBuildWrapper extends SimpleBuildWrapper {
 
     private final String configFile;

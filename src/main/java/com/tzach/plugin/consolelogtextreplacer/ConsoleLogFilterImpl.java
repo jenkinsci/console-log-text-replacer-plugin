@@ -2,6 +2,7 @@ package com.tzach.plugin.consolelogtextreplacer;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import hudson.console.ConsoleLogFilter;
 import hudson.model.AbstractBuild;
 
@@ -13,6 +14,7 @@ import java.io.OutputStream;
 /**
  * @author tzach
  */
+@SuppressFBWarnings({"DM_DEFAULT_ENCODING","REC_CATCH_EXCEPTION"})
 public class ConsoleLogFilterImpl extends ConsoleLogFilter {
     private ConfigurationFile configurationFile;
 
