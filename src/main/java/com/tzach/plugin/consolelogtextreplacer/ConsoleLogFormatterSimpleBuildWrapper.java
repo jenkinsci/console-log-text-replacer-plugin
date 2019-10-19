@@ -85,7 +85,7 @@ public class ConsoleLogFormatterSimpleBuildWrapper extends SimpleBuildWrapper {
                 }
                 return FormValidation.ok("Valid configuration file. Found " + configurationFile.entries.size() + " entries");
             } catch (Exception e) {
-                return FormValidation.error("Not a valid configuration file");
+                return FormValidation.error("Not a valid configuration file [" + e.getMessage() + "]");
 
             }
         }
